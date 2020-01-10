@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace operations
+﻿namespace operations
 {
     public class Subtraction
     {
-        public static int Minus(int a, int b)
+        public static dynamic Minus(dynamic a, dynamic b)
         {
             return a - b;
         }
-        public static double Minus(double a, double b)
+        /*public static double Minus(double a, double b)
         {
             return a - b;
-        }
+        }*/
     }
 }

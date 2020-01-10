@@ -1,21 +1,20 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace BasicCalculator
 {
     public class Calculator
     {
         public int solution;
-        public int Add(int a, int b)
+        public dynamic Add(dynamic a, dynamic b)
         {
             solution = Addition.Add(a, b);
             return solution;
         }
 
-        public int Divide(int a, int b)
+        /*public double Divide(double a, double b)
         {
             solution = Division.Divide(a, b);
             return solution;
-        }
+        }*/
     }
 }

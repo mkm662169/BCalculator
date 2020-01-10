@@ -1,17 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace operations
 {
     public class Randomising
     {
-        private static object random;
-
-        public int Randomise(int min, int max)
+        private readonly dynamic Seed;
+        //private static object random;
+        public Randomising(dynamic seed)
         {
-            Random random = new Random(0);
-            return random.Next(min, max);
+            Seed = seed;
+        }
+        public int GenerateRandomNumber(int min, int max)
+        {
+            Random random = new Random(Seed);
+            var randomNumber = random.Next(min, max);
+            return randomNumber;
         }
 
     }
