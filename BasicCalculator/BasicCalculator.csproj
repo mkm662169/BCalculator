@@ -5,6 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cubing\Cubing.csproj" />
+    <ProjectReference Include="..\Difference\Difference.csproj" />
+    <ProjectReference Include="..\Multiply\Multiply.csproj" />
+    <ProjectReference Include="..\Quotient\Quotient.csproj" />
+    <ProjectReference Include="..\SquareRoot\SquareRoot.csproj" />
+    <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\Sum\Sum.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="operations">
       <HintPath>..\operations\bin\Debug\netcoreapp3.0\operations.dll</HintPath>
     </Reference>

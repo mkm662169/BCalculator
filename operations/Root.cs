@@ -6,7 +6,7 @@ namespace operations
     {
         public static dynamic Sqrt(dynamic a)
         {
-            return Math.Sqrt(a);
+            return Math.Pow(a, 0.5);
         }
     }
 }

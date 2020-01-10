@@ -1,12 +1,12 @@
 ﻿namespace operations
 {
-    public class Division
+    public static class Division
     {
          public static dynamic Divide(dynamic a, dynamic b)
          {
              return a / b;
          }
-        public static int Divide(int a, int b)
+       /* public static int Divide(int a, int b)
         {
             return a / b;
         }
@@ -14,7 +14,7 @@
         {
             return a / b;
         }
-        /*public static dynamic Divide(dynamic[] arrayB)
+        public static dynamic Divide(dynamic[] arrayB)
         {
             dynamic d = arrayB[0];
 

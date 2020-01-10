@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using BasicCalculator;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BasicCalculator.Tests
 {
@@ -23,13 +24,22 @@ namespace BasicCalculator.Tests
             Assert.AreEqual(4.43, calculator.solution);
         }*/
 
-        /*[TestMethod()]
+        [TestMethod()]
         public void DivideTest()
         {
             int d = calculator.Divide(70, 35);
 
             Assert.AreEqual(2, d);
             Assert.AreEqual(2, calculator.solution);
-        }*/
+        }
+
+        [TestMethod()]
+        public void MultiplyTest()
+        {
+            int c = calculator.Multiply(8, 5);
+
+            Assert.AreEqual(40, c);
+            Assert.AreEqual(40, calculator.solution);
+        }
     }
 }
