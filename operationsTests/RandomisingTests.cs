@@ -1,9 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace operations.Tests
 {
     [TestClass()]
@@ -11,13 +7,12 @@ namespace operations.Tests
     {
         private readonly int min = 10;
         private readonly int max = 30;
-        Randomising rand = new Randomising();
-        Randomising rand1 = new Randomising();
-
+        private readonly Randomising random =  new Randomising(5);
         [TestMethod()]
         public void RandomiseTest()
         {
-            Assert.AreEqual(rand.Randomise(min, max), rand1.Randomise(min, max));
+            //Assert.IsTrue();
+            Assert.AreEqual(random.GenerateRandomNumber(min, max), random.GenerateRandomNumber(min, max));
         }
     }
 }

@@ -1,28 +1,26 @@
-﻿using System;
-
-namespace operations
+﻿namespace operations
 {
     public class Addition
     {
-        public static int Add(int a, int b)
+        public static dynamic Add(dynamic a, dynamic b)
         {
             return a + b;
         }
-        public static double Add(double a, double b)
+        /*public static double Add(double a, double b)
         {
             return a + b;
-        }
-        public static int Add(int[] arrayA)
+        }*/
+        public static dynamic Add(dynamic[] arrayA)
         {
-            int c = 0;
-            foreach (int a in arrayA)
+            dynamic c = 0;
+            foreach (dynamic a in arrayA)
             {
                 c = Add(c, a);
             }
 
             return c;
         }
-        public static double Add(double[] arrayA)
+        /*public static double Add(double[] arrayA)
         {
             double c = 0.0;
             foreach (double a in arrayA)
@@ -30,6 +28,6 @@ namespace operations
                 c = Add(c, a);
             }
             return c;
-        }
+        }*/
     }
 }

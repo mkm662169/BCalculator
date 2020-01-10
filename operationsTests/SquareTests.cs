@@ -1,16 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace operations.Tests
 {
     [TestClass()]
     public class SquareTests
     {
-        private readonly int a = 9;
-        private readonly double b = 1.1;
+        private readonly dynamic a = 9;
+        private readonly dynamic b = 1.1;
 
         [TestMethod()]
         public void SquaredTest()

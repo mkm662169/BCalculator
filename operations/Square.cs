@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace operations
+﻿namespace operations
 {
     public class Square
     {
-        public static int Squared(int a)
+        public static dynamic Squared(dynamic a)
         {
             return a * a;
         }
-        public static double Squared(double a)
+        /*public static double Squared(double a)
         {
             return a * a;
-        }
+        }*/
     }
 }

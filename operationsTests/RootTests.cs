@@ -1,16 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace operations.Tests
 {
     [TestClass()]
     public class RootTests
     {
-        private readonly double a = 100;
-        private readonly double b = 10.1;
+        private readonly dynamic a = 100;
+        private readonly dynamic b = 10.1;
         [TestMethod()]
         public void SqrtTest()
         {
