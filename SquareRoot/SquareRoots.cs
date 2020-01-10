@@ -3,10 +3,6 @@ using operations;
 
 namespace SquareRoot
 {
-    public interface ISquareRooting
-    {
-        public dynamic Sqrt(dynamic a);
-    }
     public class SquareRoots: ISquareRooting
     {
         public dynamic solution;
