@@ -5,8 +5,8 @@ namespace operations.Tests
     [TestClass()]
     public class CubeTests
     {
-        private readonly dynamic a = 5;
-        private readonly dynamic b = 5.5;
+        private readonly int a = 5;
+        private readonly double b = 5.5;
 
         [TestMethod()]
         public void CubedTest()

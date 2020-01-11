@@ -2,19 +2,19 @@
 {
     public static class Division
     {
-         public static dynamic Divide(dynamic a, dynamic b)
+         public static int Divide(int a, int b)
          {
              return a / b;
          }
        /* public static int Divide(int a, int b)
         {
             return a / b;
-        }
+        }*/
         public static double Divide(double a, double b)
         {
             return a / b;
         }
-        public static dynamic Divide(dynamic[] arrayB)
+        public static int Divide(int[] arrayB)
         {
             dynamic d = arrayB[0];
 
@@ -34,6 +34,6 @@
             }
             double d = c * arrayA[0];
             return d;
-        }*/
+        }
     }
 }

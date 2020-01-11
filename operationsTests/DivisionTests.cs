@@ -6,12 +6,12 @@ namespace operations.Tests
     [TestClass()]
     public class DivisionTests
     {
-        private readonly dynamic a = 55;
-        private readonly dynamic b = 5;
-        private readonly dynamic c = 5.7;
-        private readonly dynamic d = 2.4;
-       // private readonly dynamic[] arrayA = { 1, 3, 7, 9, 18 };
-        private readonly dynamic e = 0;
+        private readonly int a = 55;
+        private readonly int b = 5;
+        private readonly double c = 5.7;
+        private readonly double d = 2.4;
+       // private readonly int[] arrayA = { 1, 3, 7, 9, 18 };
+        private readonly int e = 0;
 
         [TestMethod()]
         public void DivideTest()
@@ -25,7 +25,7 @@ namespace operations.Tests
             Assert.AreEqual(2.375, Division.Divide(c, d));
         }
 
-        /*[TestMethod()]
+       /* [TestMethod()]
         public void DivideArrayTest()
         {
             Assert.AreEqual(38, )
