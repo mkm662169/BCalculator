@@ -9,10 +9,6 @@ using Square;
 
 namespace BasicCalculator
 {
-    public interface IBasicCalculator
-    {
-        public dynamic Add(dynamic a, dynamic b);
-    }
     public class Calculator: IAdd, ITimes, IDivides, IDifferences, ISquareRooting, ICubing, ISquared
     {
         // Creating objects
