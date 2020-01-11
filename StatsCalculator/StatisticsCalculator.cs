@@ -5,12 +5,13 @@ using operations;
 
 namespace StatsCalculator
 {
-    /*public class StatisticsCalculator
+    public class StatisticsCalculator
     {
+        public dynamic solution;
         public dynamic Mean(dynamic values)
         {
             solution = StatMean.Mean(values);
             return solution;
         }
-    }*/
+    }
 }

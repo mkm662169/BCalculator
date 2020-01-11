@@ -9,13 +9,13 @@ namespace StatsCalculator.Tests
     [TestClass()]
     public class StatisticsCalculatorTests
     {
-        /*[TestMethod()]
+        [TestMethod()]
         public void MeanTest()
         {
             StatisticsCalculator statsCalc = new StatisticsCalculator();
-            int[] values = { 1, 2 };
+            int[] values = { 1, 2, 3, 4, 5 };
             var mean = statsCalc.Mean(values);
-            Assert.AreEqual(1.5, mean);
-        }*/
+            Assert.AreEqual(3, mean);
+        }
     }
 }
