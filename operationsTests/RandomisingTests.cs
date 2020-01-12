@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using operations;
 namespace operations.Tests
 {
     [TestClass()]
@@ -7,7 +6,7 @@ namespace operations.Tests
     {
         private readonly int min = 10;
         private readonly int max = 30;
-        private readonly Randomising random =  new Randomising(5);
+        private readonly Randomising random = new Randomising(5);
         [TestMethod()]
         public void RandomiseTest()
         {

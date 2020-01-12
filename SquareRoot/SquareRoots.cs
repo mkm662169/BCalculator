@@ -1,9 +1,8 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace SquareRoot
 {
-    public class SquareRoots: ISquareRooting
+    public class SquareRoots : ISquareRooting
     {
         public dynamic solution;
 

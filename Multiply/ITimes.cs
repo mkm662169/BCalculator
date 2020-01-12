@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Multiply
+﻿namespace Multiply
 {
     public interface ITimes
     {
         public dynamic Multiply(dynamic a, dynamic b);
+
+        public dynamic Multiply(dynamic values);
     }
 }
