@@ -1,10 +1,9 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace Cubing
 {
-    
-    public class Cubes: ICubing
+
+    public class Cubes : ICubing
     {
         public dynamic solution;
 

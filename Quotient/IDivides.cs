@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Quotient
+﻿namespace Quotient
 {
     public interface IDivides
     {

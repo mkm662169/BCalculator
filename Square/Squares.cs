@@ -1,9 +1,6 @@
-﻿using System;
-using operations;
-
-namespace Square
+﻿namespace Square
 {
-    public class Squares: ISquared
+    public class Squares : ISquared
     {
         public dynamic solution;
 

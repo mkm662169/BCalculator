@@ -1,9 +1,8 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace Quotient
 {
-    public class Dividing: IDivides
+    public class Dividing : IDivides
     {
         public dynamic solution;
 

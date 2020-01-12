@@ -35,5 +35,10 @@ namespace operations.Tests
         {
             Assert.AreEqual(10.8, Addition.Add(arrayB));
         }
+        [TestMethod()]
+        public void AddIntDoubleTest()
+        {
+            Assert.AreEqual(9.5, Addition.Add(a, d));
+        }
     }
 }

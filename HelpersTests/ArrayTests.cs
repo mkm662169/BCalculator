@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Helpers;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Helpers.Tests
 {
@@ -10,10 +6,17 @@ namespace Helpers.Tests
     public class ArrayTests
     {
         private readonly int[] arrayA = { 1, 2, 3, 4, 5 };
+        private readonly double[] arrayB = { 1.1, 2.2, 3.3, 4.4, 5.5 };
         [TestMethod()]
-        public void ArrayLengthTest()
+        public void ArrayIntLengthTest()
         {
             Assert.AreEqual(5, Array.Length(arrayA));
+        }
+
+        [TestMethod()]
+        public void ArrayDoubleLengthTest()
+        {
+            Assert.AreEqual(5, Array.Length(arrayB));
         }
     }
 }
