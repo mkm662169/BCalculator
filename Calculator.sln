@@ -29,13 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpersTests", "HelpersTests\HelpersTests.csproj", "{12A68C4E-0FAD-4C3A-8F81-A164ABC6D229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsCalculator", "StatsCalculator\StatsCalculator.csproj", "{7945D24D-8E02-4986-AEF7-D8C6D9F6BEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsCalculator", "StatsCalculator\StatsCalculator.csproj", "{7945D24D-8E02-4986-AEF7-D8C6D9F6BEF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatOperations", "StatOperations\StatOperations.csproj", "{44DE0A67-777B-4EB9-88D7-6243B0CF2A49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperations", "StatOperations\StatOperations.csproj", "{44DE0A67-777B-4EB9-88D7-6243B0CF2A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatOperationsTests", "StatOperationsTests\StatOperationsTests.csproj", "{B45FE8F4-1C2A-4C81-B049-87B88C5C8A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperationsTests", "StatOperationsTests\StatOperationsTests.csproj", "{B45FE8F4-1C2A-4C81-B049-87B88C5C8A63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsCalculatorTests", "StatsCalculatorTests\StatsCalculatorTests.csproj", "{DBE08AE9-2C82-493C-8015-AFDC83C77AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsCalculatorTests", "StatsCalculatorTests\StatsCalculatorTests.csproj", "{DBE08AE9-2C82-493C-8015-AFDC83C77AA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
