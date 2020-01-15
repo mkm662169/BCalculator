@@ -24,7 +24,7 @@
             }
             return d;
         }
-        public static double Quotient(double[] arrayA)
+        public static double Divide(double[] arrayA)
         {
             double c = arrayA[0];
 
